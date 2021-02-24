@@ -1,0 +1,56 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header
+{
+    width: 99vw;
+    background-color:#DE0054;
+    padding: 2px 10px; 
+    display: flex;
+    align-items: center;
+    
+}
+
+#logo
+{
+  
+    width: 6%;
+}
+
+nav ul li
+{
+    list-style: none;
+    margin: 20px;
+   
+    
+}
+
+nav ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a
+{
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: #FF005A 2px solid;
+}
+
+#selected
+{
+    border-bottom: #FF005A 2px solid;
+}
